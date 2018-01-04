@@ -11,7 +11,7 @@ testDockerfilePath: 'tests/dockerfile'
 blacklistFile: 'BLACKLIST'
 
 docker:
-  imagePrefix: 'webdevops'
+  imagePrefix: 'marsonline'
   autoLatestTag: 'ubuntu-16.04'
   pathRegex: '/(?P<image>[^/]+)/(?P<tag>[^/]+)/Dockerfile$'
   autoPull: True
@@ -19,7 +19,7 @@ docker:
 
 
 graph:
-    label: 'Webdevops Images\n%s'
+    label: 'Marsonline Images\n%s'
 
 
 dockerTest:
