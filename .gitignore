@@ -7,3 +7,5 @@
 *.log
 *.pyc
 .doit.db
+docker/*/*/conf
+docker/*/*/Dockerfile
